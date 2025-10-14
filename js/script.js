@@ -1,5 +1,5 @@
 // Dynamically determine correct path prefix based on current location
-const pathPrefix = window.location.pathname.includes('/Solutions/') ? '../' : './';
+const pathPrefix = (window.location.pathname.includes('/Solutions/') || window.location.pathname.includes('/Products/')) ? '../' : './';
 Promise.all([
         fetch(pathPrefix + "header.html").then(res => res.text()),
         fetch(pathPrefix + "footer.html").then(res => res.text()),
