@@ -111,7 +111,7 @@
 /* 2.1 Colors Variables */
 
 :root{
-    --primary: #ffffff;
+    --primary: #dfcaa0;
     --secondary: #2d2e2f  ;
     --text-color: #ffffff;
     --text-color-2: var(--secondary);
@@ -180,9 +180,9 @@
 }
 
 .lightmode{
-    --primary: #000000;
-    --secondary: #ffffff;
-    --text-color: #ffffff;
+    --primary: #f48120;
+    --secondary: #ede8d0;
+    --text-color: #000000;
     --accent-color: #f48120 ;
     --accent-color-2: #000000;
     --accent-color-3: #f48120 ;
@@ -1399,6 +1399,10 @@ body.lightmode .btn-accent{
 
 body.lightmode .keep-dark .btn-accent{
     border: none;
+}
+
+body.lightmode .btn-title span {
+    color: #000;
 }
 
 .btn-title{
