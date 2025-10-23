@@ -1990,6 +1990,11 @@ body.lightmode .banner-layout .title-heading{
     transition: all 0.6s;
 }
 
+:root {
+    --box-shadow-top-left: 0 4px 8px #DFCAA0;
+    --box-shadow-bottom-right: 0 6px 12px #F48120;
+}
+
 body.lightmode .navbar-icon-wrapper{
     border: 1px solid var(--accent-color);
 }
