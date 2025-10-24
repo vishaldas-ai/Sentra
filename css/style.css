@@ -207,9 +207,12 @@ body.lightmode .service-recent{
     color: #ffffff;
 }
 
+<<<<<<< HEAD
 .text-product{
     color: var(--text-color);
 }
+=======
+>>>>>>> 6e58328ffb7a3e5278853d2ab8809a75fa729bdc
 
 body.lightmode .service-included {
     color: #ffffff;
@@ -390,6 +393,7 @@ ul{
 /* ================== 05. Global Layout Styles ================== */
 
 .section {
+<<<<<<< HEAD
     padding: 60px 20px 20px 20px;
 }
 
@@ -397,6 +401,9 @@ ul{
     padding: 20px 20px 20px 20px;
     margin-top: 5px;
     margin-bottom: 5px;
+=======
+    padding: 120px 20px 120px 20px;
+>>>>>>> 6e58328ffb7a3e5278853d2ab8809a75fa729bdc
 }
 
 .hero-container {
@@ -404,7 +411,10 @@ ul{
     margin-right: auto;
     margin-left: auto;
     width: 100%;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6e58328ffb7a3e5278853d2ab8809a75fa729bdc
 }
 
 .section-banner{
@@ -961,6 +971,7 @@ body.lightmode .form select{
 }
 
 /* Products dropdown grid (3 columns) */
+<<<<<<< HEAD
 /* ====== Product Dropdown (New Design) ====== */
 .dropdown-menu.dropdown-menu-products {
     display: block !important;
@@ -1122,6 +1133,8 @@ body.lightmode .form select{
 }
 
 /* Dropdown Menu Products (Legacy - for compatibility) */
+=======
+>>>>>>> 6e58328ffb7a3e5278853d2ab8809a75fa729bdc
 .dropdown-menu.dropdown-grid-products {
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
@@ -1180,6 +1193,7 @@ body.lightmode .form select{
     line-height: 1.4;
 }
 
+<<<<<<< HEAD
 /* ====== Responsive Product Dropdown ====== */
 
 /* Tablet/Medium Screens (768px - 1200px) */
@@ -1269,6 +1283,8 @@ body.lightmode .form select{
     }
 }
 
+=======
+>>>>>>> 6e58328ffb7a3e5278853d2ab8809a75fa729bdc
 /* Whitepapers dropdown grid (single column with better spacing) */
 .dropdown-menu.dropdown-grid-whitepapers {
     display: grid !important;

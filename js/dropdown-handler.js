@@ -89,6 +89,7 @@ function initDropdownHandler() {
         $('.nav-item.dropdown .dropdown-menu').removeClass('show');
         $('.nav-item.dropdown .dropdown-toggle').attr('aria-expanded', 'false');
     });
+<<<<<<< HEAD
     
     // Handle product link clicks (for new product dropdown structure)
     $('.product-link, .column-title, .explore-btn').on('click', function() {
@@ -96,6 +97,8 @@ function initDropdownHandler() {
         $('.nav-item.dropdown .dropdown-menu').removeClass('show');
         $('.nav-item.dropdown .dropdown-toggle').attr('aria-expanded', 'false');
     });
+=======
+>>>>>>> 6e58328ffb7a3e5278853d2ab8809a75fa729bdc
 }
 
 // Reinitialize dropdown handler when header is loaded dynamically
